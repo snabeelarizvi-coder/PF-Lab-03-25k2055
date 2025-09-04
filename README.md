@@ -1,7 +1,4 @@
-# **My Name is Syed Nabeel**\
-# Cyber Security
-1. Playing Cricket
-2. Hanging Out
-3. Golf
+I'm Cs Student . I have Great Interest in Programming Languages
+
 
    
