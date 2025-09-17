@@ -1,0 +1,31 @@
+int main() {
+    char customer_name[50];
+    int units_consumed;
+    float price_per_unit, total_bill;
+
+    // Taking input from user
+    printf("Enter Customer Name: ");
+    fgets(customer_name, sizeof(customer_name), stdin);  // safer for strings
+
+    printf("Enter Units Consumed: ");
+    scanf("%d", &units_consumed);
+
+    printf("Enter Price per Unit: ");
+    scanf("%f", &price_per_unit);
+
+    // Calculate total bill
+    total_bill = units_consumed * price_per_unit;
+
+    // Displaying formatted bill slip
+    printf("\n========================================\n");
+    printf("          Electricity Bill Slip\n");
+    printf("========================================\n");
+    printf("Customer Name   : %s", customer_name);
+    printf("Units Consumed  : %d\n", units_consumed);
+    printf("Price per Unit  : %.2f\n", price_per_unit);
+    printf("----------------------------------------\n");
+    printf("Total Bill      : %.2f\n", total_bill);
+    printf("========================================\n");
+
+    return 0;
+}
