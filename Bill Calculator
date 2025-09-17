@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main() {
     char customer_name[50];
     int units_consumed;
@@ -29,3 +31,4 @@ int main() {
 
     return 0;
 }
+
